@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>On Click</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div id="nav_box">
+            <h1>Dojonary</h1>
+            <input type="search" name="search_bar" id="search">
+            <button id="login" onclick="logout(this)">Login</button>
+        </div>
+    </nav>
+    <div id="entire_page">
+        <div id="left_side">
+            <div class="card">
+                <div class="left_text">
+                    <h1>ninja</h1>
+                    <h2>noun</h2>
+                    <h3>Plural:ninjas</h3>
+                    <button onclick="like(this)"> 13 Likes</button>
+                </div>
+                <div class="right_text">
+                    A practitioner skilled in the <br> <a href="#">Japanese</a> art of <a href="#">ninjutsu</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="left_text">
+                    <h1>ninja</h1>
+                    <h2>noun</h2>
+                    <h3>Plural:ninjas</h3>
+                    <button onclick="like(this)"> 37 Likes</button>
+                </div>
+                <div class="right_text">
+                    A <a href="#">programmer</a> who breaks <br> down problems with <a href="#">zen</a>-like <br> focus
+                </div>
+            </div>
+        </div>
+        <div id="right_side">
+            <div id="card2">
+                <h2>Dojonary is <br> defined by YOU</h2>
+                <button onclick="remove(this)"> Add Definition</button>
+            </div>
+        </div>
+    </div>
+    <script src="./Clicker_js.js"></script>
+</body>
+</html>
