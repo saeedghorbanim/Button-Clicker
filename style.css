@@ -30,7 +30,6 @@ input {
 }
 
 #entire_page {
-    
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -43,7 +42,6 @@ input {
 #left_side {
     flex: 3;
     height: 600px;
-
 }
 
 .card {
@@ -58,7 +56,9 @@ input {
 }
 
 .left_text {
-    align-items: cen;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
 }
 
 
@@ -85,15 +85,20 @@ input {
 
 
 #card2 {
-background-color: white;
-height: 165px;
-border: grey 4px solid;
-margin: 0 auto;
-width: 275px;
-/* align-items: center; */
+    background-color: white;
+    height: 165px;
+    border: grey 4px solid;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding-top: 25px;
+    width: 310px;
+    margin-left: 50px;
+    align-items: center;
 } 
 
 #card2 button {
     background-color: lightgreen;
     width: 165px;
+    box-shadow: 5px 5px 5px yellow;
 }
